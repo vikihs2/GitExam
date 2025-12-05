@@ -30,11 +30,19 @@ main {
     margin: 0 auto;
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .gallery img {
     display: inline-block;
-    margin: 8px;
+    margin: 10px;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: 240px;
+    height: auto;
 }
 
 footer {
