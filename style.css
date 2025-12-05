@@ -25,7 +25,16 @@ nav a:hover {
 }
 
 main {
-    padding: 20px;
+    padding: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    display: inline-block;
+    margin: 8px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 footer {
