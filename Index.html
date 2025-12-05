@@ -22,8 +22,11 @@
         <p>A tiny guide featuring Sofia, Plovdiv and Varna.</p>
     </section>
 
-    <button id="fact-btn">Show Random Bulgaria Fact</button>
-    <p id="fact"></p>
+    <section id="facts" aria-label="Bulgaria facts">
+        <p>Press the button to get a random short fact about Bulgaria.</p>
+        <button id="fact-btn" aria-controls="fact">Show Random Bulgaria Fact</button>
+        <p id="fact" role="status" aria-live="polite"></p>
+    </section>
 </main>
 
 <footer>
