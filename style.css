@@ -43,3 +43,9 @@ footer {
     text-align: center;
     font-size: 0.9rem;
 }
+
+@media (max-width: 600px) {
+    nav a { display: block; margin-bottom: 10px; }
+    .gallery img { width: calc(50% - 20px); height: auto; }
+    main { padding: 16px; }
+}
